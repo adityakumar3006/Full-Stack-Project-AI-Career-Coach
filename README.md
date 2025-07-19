@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🧠 Full-Stack AI Career Coach
+An intelligent, personalized career development platform built using Next.js and Gemini AI. This platform helps users upskill, track progress, and generate essential job-hunting assets — all in one place.
 
-## Getting Started
+🚀 Features
+🔐 User Authentication using Clerk.dev
 
-First, run the development server:
+💼 Role-Based Onboarding: Users provide professional details to get a tailored experience
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📄 Resume Builder: Create beautiful resumes with editable templates
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+✉️ Cover Letter Generator: Automatically generate cover letters based on the role
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🤖 AI-Enhanced Forms: Use Gemini AI to auto-enhance resume sections and professional summaries
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📊 Role-Based Quizzes: Users can take quizzes related to their field of interest
 
-## Learn More
+📈 Performance Tracking: Visualize quiz scores and improvements using Recharts
 
-To learn more about Next.js, take a look at the following resources:
+🔍 Real-Time Job Fetching: Integrated with Ingest to provide real-time job listings tailored to the user’s role
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🗄️ PostgreSQL Database: Store user data, quiz results, resumes, and job history securely
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🛠️ Tech Stack
+Tech	Usage
+Next.js	Full-stack React framework (frontend + backend)
+Gemini AI	Powering AI-based enhancements and suggestions
+PostgreSQL	Relational DB for storing user and quiz data
+Clerk	Authentication, user management
+Ingest	Real-time job data based on user roles
+Recharts	Visual representation of quiz statistics
 
-## Deploy on Vercel
+✨ User Journey
+Sign Up / Log In using Clerk
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Onboarding: Fill in your professional background and role
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Dashboard:
+
+Take skill-based quizzes
+
+See quiz performance using charts
+
+Get real-time job opportunities
+
+Resume Builder:
+
+Add education, experience, and skills
+
+AI assistance to enhance content
+
+Export your resume as a PDF
+
+Cover Letter Generator:
+
+Generate personalized cover letters based on job role
