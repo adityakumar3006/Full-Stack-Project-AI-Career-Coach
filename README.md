@@ -8,8 +8,6 @@ An intelligent, personalized career development platform built using Next.js and
 
 📄 Resume Builder: Create beautiful resumes with editable templates
 
-✉️ Cover Letter Generator: Automatically generate cover letters based on the role
-
 🤖 AI-Enhanced Forms: Use Gemini AI to auto-enhance resume sections and professional summaries
 
 📊 Role-Based Quizzes: Users can take quizzes related to their field of interest
